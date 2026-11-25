@@ -11,7 +11,7 @@ export const Footer = () => {
         {/* Left copyright and credits */}
         <div className="flex flex-col items-center md:items-start space-y-1 text-center md:text-left">
           <p className="text-zinc-400">
-            &copy; {currentYear} Dipesh Jangir. All rights reserved.
+            &copy; {currentYear} Ananya Yash Bhatnagar. All rights reserved.
           </p>
           <p className="text-[10px] text-zinc-600 uppercase tracking-widest font-mono">
             {/* Designed & Engineered with React 19 &amp; Tailwind CSS */}
@@ -20,7 +20,7 @@ export const Footer = () => {
 
         {/* Center Minimal Branding */}
         <a href="#" className="font-display font-black text-white text-md tracking-tight hover:text-electric-blue transition-colors">
-          Dipesh
+          Ananya
         </a>
 
         {/* Right social indicators */}

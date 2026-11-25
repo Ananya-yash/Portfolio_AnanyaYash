@@ -57,20 +57,20 @@ export const LoadingScreen = ({ onComplete }) => {
     <AnimatePresence>
       {!isDone && (
         <motion.div
-          className="fixed inset-0 bg-[#070707] z-[9999] flex flex-col justify-between p-10 md:p-20 pointer-events-auto"
+          className="fixed inset-0 bg-[#070707] z-[9999] flex flex-col justify-between p-6 sm:p-10 md:p-20 pointer-events-auto"
           initial={{ y: 0 }}
           exit={{ y: "-100%" }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           {/* Header */}
-          <div className="flex justify-between items-center w-full">
-            <div className="flex items-center space-x-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-electric-blue animate-pulse" />
-              <span className="font-display tracking-widest text-[10px] text-zinc-500 uppercase">
-                Dipesh Jangir &bull; Portfolio v2.0
+          <div className="flex justify-between items-center w-full gap-4">
+            <div className="flex items-center space-x-2 min-w-0">
+              <span className="w-2.5 h-2.5 rounded-full bg-electric-blue animate-pulse shrink-0" />
+              <span className="font-display tracking-widest text-[10px] text-zinc-500 uppercase truncate">
+                Ananya Yash Bhatnagar &bull; Portfolio v2.0
               </span>
             </div>
-            <div className="font-display tracking-widest text-[10px] text-zinc-500 uppercase">
+            <div className="font-display tracking-widest text-[10px] text-zinc-500 uppercase shrink-0 text-right">
               Developer Edition
             </div>
           </div>

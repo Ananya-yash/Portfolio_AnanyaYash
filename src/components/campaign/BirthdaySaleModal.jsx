@@ -75,7 +75,7 @@ export const BirthdaySaleModal = ({ campaign }) => {
       ? `Birthday Sale Website Claim — 100% OFF (FREE Basic Portfolio) [${offer?.offerId || 'OFFER'}]`
       : `Birthday Sale Website Claim — $${discountVal} OFF ($${finalPriceVal} Final Price) [${offer?.offerId || 'OFFER'}]`;
 
-    const body = `Hi Dipesh,
+    const body = `Hi Ananya,
 
 I would like to claim my Birthday Sale website development deal!
 
@@ -92,7 +92,7 @@ ${data.requirements || '[Describe your project vision, pages, and goals]'}
 ==============================
 OFFER & VOUCHER SPECIFICATIONS
 ==============================
-- Campaign: ${CAMPAIGN_CONFIG.name || 'Dipesh Birthday Sale 2026'}
+- Campaign: ${CAMPAIGN_CONFIG.name || 'Ananya Birthday Sale 2026'}
 - Unique Offer ID: ${offer?.offerId || 'N/A'}
 - Winning Discount: ${isFree ? '100% OFF (FREE Basic Portfolio)' : `$${discountVal} OFF`}
 - Standard Package Price: $300 USD
@@ -115,7 +115,7 @@ Looking forward to hearing from you!`;
     const draftText = `To: ${CAMPAIGN_CONFIG?.inquiryEmail || 'dipeshjangir12@gmail.com'}
 Subject: Birthday Sale Website Claim — ${isFree ? '100% OFF (FREE Basic Portfolio)' : `$${discountVal} OFF`} [${offer?.offerId || 'OFFER'}]
 
-Hi Dipesh,
+Hi Ananya,
 
 I would like to claim my Birthday Sale website development deal!
 
@@ -132,7 +132,7 @@ ${formData.requirements || '[Describe your project vision, pages, and goals]'}
 ==============================
 OFFER & VOUCHER SPECIFICATIONS
 ==============================
-- Campaign: ${CAMPAIGN_CONFIG.name || 'Dipesh Birthday Sale 2026'}
+- Campaign: ${CAMPAIGN_CONFIG.name || 'Ananya Birthday Sale 2026'}
 - Unique Offer ID: ${offer?.offerId || 'N/A'}
 - Winning Discount: ${isFree ? '100% OFF (FREE Basic Portfolio)' : `$${discountVal} OFF`}
 - Standard Package Price: $300 USD

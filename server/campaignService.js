@@ -302,7 +302,7 @@ async function sendInquiryEmail(offer, inquiryData) {
   const isFree = Boolean(offer.isFree || offer.finalPrice === 0 || offer.discount === 300);
   const subject = `Birthday Sale Website Inquiry — ${offer.prizeLabel}`;
   const plainText = `
-Hi Dipesh,
+Hi Ananya,
 
 You received a new Birthday Sale website development inquiry!
 
@@ -504,8 +504,8 @@ export async function processClaim(claimPayload, forcedTimestamp = null, devOver
   return {
     success: true,
     message: emailResult.delivered
-      ? 'Your inquiry and Birthday Sale offer have been delivered to Dipesh!'
-      : 'Your inquiry and Birthday Sale offer have been securely recorded and received for Dipesh to review!',
+      ? 'Your inquiry and Birthday Sale offer have been delivered to Ananya!'
+      : 'Your inquiry and Birthday Sale offer have been securely recorded and received for Ananya to review!',
     offer: updatedOffer,
     emailResult
   };

@@ -50,11 +50,13 @@ export const Hero = () => {
           </motion.div>
 
           {/* Heading */}
-          <motion.div variants={itemVariants} className="space-y-2">
-            <h1 className="font-display text-4xl md:text-7xl font-bold tracking-tight text-white leading-none">
-              Hi, I'm <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-400 to-electric-blue">
-                Dipesh Jangir
+          <motion.div variants={itemVariants} className="space-y-2.5">
+            <h1 className="font-display font-bold tracking-tight text-white">
+              <span className="block text-3xl sm:text-4xl md:text-5xl xl:text-6xl leading-tight">
+                Hi, I'm
+              </span>
+              <span className="block text-[2rem] sm:text-5xl md:text-[3.5rem] lg:text-[2.5rem] xl:text-[3.25rem] leading-[1.12] pb-1 text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-400 to-electric-blue">
+                Ananya{"\u00A0"}Yash Bhatnagar
               </span>
             </h1>
             <p className="font-display text-lg md:text-2xl font-light text-zinc-400">
@@ -94,8 +96,8 @@ export const Hero = () => {
             </a>
 
             <a 
-              href="/Resume_Dipesh_Jangir.pdf" 
-              download="Resume_Dipesh_Jangir.pdf"
+              href="/Resume_Ananya_Yash_Bhatnagar.pdf" 
+              download="Resume_Ananya_Yash_Bhatnagar.pdf"
               className="flex-grow sm:flex-grow-0"
             >
               <MagneticButton range={25} className="w-full">
@@ -124,7 +126,7 @@ export const Hero = () => {
               {!imgLoadError ? (
                 <img
                   src={profileImg}
-                  alt="Dipesh Jangir Profile"
+                  alt="Ananya Yash Bhatnagar Profile"
                   width="320"
                   height="320"
                   fetchPriority="high"

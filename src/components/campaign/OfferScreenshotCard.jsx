@@ -62,9 +62,9 @@ export const OfferScreenshotCard = ({ offer, formatExpiryIST }) => {
 
     // Brand Name
     ctx.fillStyle = '#FFFFFF';
-    ctx.font = 'bold 22px sans-serif';
+    ctx.font = 'bold 18px sans-serif';
     ctx.textAlign = 'right';
-    ctx.fillText('DIPESH JANGIR', width - 50, 68);
+    ctx.fillText('ANANYA YASH BHATNAGAR', width - 50, 68);
 
     ctx.fillStyle = '#94A3B8';
     ctx.font = '11px monospace';
@@ -174,10 +174,10 @@ export const OfferScreenshotCard = ({ offer, formatExpiryIST }) => {
       const file = new File([blob], `Birthday-Sale-${offer.offerId}.png`, { type: 'image/png' });
 
       await navigator.share({
-        title: "Dipesh's Birthday Sale Voucher",
+        title: "Ananya's Birthday Sale Voucher",
         text: isFree
-          ? "I just unlocked a 100% OFF (FREE) Basic Portfolio Website on Dipesh Jangir's Birthday Sale!"
-          : `I just unlocked a $${discountVal} OFF website development deal on Dipesh Jangir's Birthday Sale!`,
+          ? "I just unlocked a 100% OFF (FREE) Basic Portfolio Website on Ananya Yash Bhatnagar's Birthday Sale!"
+          : `I just unlocked a $${discountVal} OFF website development deal on Ananya Yash Bhatnagar's Birthday Sale!`,
         files: [file]
       });
     } catch {

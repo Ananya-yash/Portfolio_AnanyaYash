@@ -1,6 +1,6 @@
 # Premium Developer Portfolio
 
-A world-class, premium, and highly interactive developer portfolio built for **Dipesh Jangir** (Full Stack Web Developer). The interface combines the elegant design languages of **Apple, Linear, Vercel, and Aceternity UI** to create a luxurious and responsive developer showcase.
+A world-class, premium, and highly interactive developer portfolio built for **Ananya Yash Bhatnagar** (Full Stack Web Developer). The interface combines the elegant design languages of **Apple, Linear, Vercel, and Aceternity UI** to create a luxurious and responsive developer showcase.
 
 ## 🚀 Tech Stack
 
@@ -27,9 +27,9 @@ A world-class, premium, and highly interactive developer portfolio built for **D
 ## 📂 Modern Folder Structure
 
 ```
-C:\Users\Dipesh\OneDrive\Desktop\developer-portfolio/
+developer-portfolio/
 ├── public/                     # Static root directory
-│   ├── Resume_Dipesh_Jangir.pdf # Resume PDF placeholder
+│   ├── Resume_Ananya_Yash_Bhatnagar.pdf # Resume PDF placeholder
 │   └── favicon.svg             # Favicon asset
 ├── src/
 │   ├── assets/                 # Profile photos and screenshots
@@ -109,7 +109,7 @@ npm run build
 
 To personalize the portfolio, replace the following placeholder items:
 * **Profile Image**: Replace `src/assets/profile.jpg` with your final professional portrait.
-* **Resume**: Replace `public/Resume_Dipesh_Jangir.pdf` with your actual CV/Resume PDF.
+* **Resume**: Replace `public/Resume_Ananya_Yash_Bhatnagar.pdf` with your actual CV/Resume PDF.
 * **Project Screenshots**: Save your mockups under `src/assets/projects/` with filenames matching the project IDs to automatically render screenshots:
   * `kapriink-tattoo.jpg`
   * `yashita-portfolio.jpg`

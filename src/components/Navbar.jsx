@@ -79,9 +79,9 @@ export const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
           {/* Logo / Brand */}
-          <a href="#" className="flex items-center space-x-2 text-white font-display font-bold text-lg tracking-tight group">
+          <a href="#" className="flex items-center space-x-2 text-white font-display font-bold text-lg tracking-tight group shrink-0 whitespace-nowrap">
             <span className="w-2 h-2 rounded-full bg-electric-blue group-hover:scale-150 transition-transform duration-300" />
-            <span>Dipesh</span>
+            <span>Ananya</span>
           </a>
 
           {/* Desktop Nav Items */}

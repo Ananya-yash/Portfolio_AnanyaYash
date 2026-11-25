@@ -33,7 +33,7 @@ export const Contact = () => {
       return;
     }
 
-    const rawMessage = `Hi Dipesh,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`;
+    const rawMessage = `Hi Ananya,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`;
     const encodedText = encodeURIComponent(rawMessage);
     const url = `https://wa.me/917742111581?text=${encodedText}`;
 
