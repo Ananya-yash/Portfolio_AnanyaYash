@@ -33,7 +33,7 @@ developer-portfolio/
 │   └── favicon.svg             # Favicon asset
 ├── src/
 │   ├── assets/                 # Profile photos and screenshots
-│   │   └── profile.jpg         # Profile picture placeholder
+│   │   └── profile.jpeg         # Profile picture placeholder
 │   ├── components/             # Reusable atomic UI elements
 │   │   ├── CustomCursor.jsx    # Custom glowing cursor trail
 │   │   ├── MagneticButton.jsx   # Magnetic pull buttons
@@ -108,7 +108,7 @@ npm run build
 ## 📸 Placeholders to Replace
 
 To personalize the portfolio, replace the following placeholder items:
-* **Profile Image**: Replace `src/assets/profile.jpg` with your final professional portrait.
+* **Profile Image**: Replace `src/assets/profile.jpeg` with your final professional portrait.
 * **Resume**: Replace `public/Resume_Ananya_Yash_Bhatnagar.pdf` with your actual CV/Resume PDF.
 * **Project Screenshots**: Save your mockups under `src/assets/projects/` with filenames matching the project IDs to automatically render screenshots:
   * `kapriink-tattoo.jpg`

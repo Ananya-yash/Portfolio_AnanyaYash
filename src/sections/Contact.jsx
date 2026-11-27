@@ -35,7 +35,8 @@ export const Contact = () => {
 
     const rawMessage = `Hi Ananya,\n\nName: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`;
     const encodedText = encodeURIComponent(rawMessage);
-    const url = `https://wa.me/917742111581?text=${encodedText}`;
+    const url = `https://wa.me/916393722618
+    ?text=${encodedText}`;
 
     setWaLink(url);
     window.open(url, "_blank", "noopener,noreferrer");
@@ -80,8 +81,8 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-[10px] text-zinc-500 uppercase tracking-widest font-mono">Email</h4>
-                  <a href="mailto:dipeshjangir12@gmail.com" className="text-sm md:text-md text-white hover:text-electric-blue transition-colors font-sans font-light">
-                    dipeshjangir12@gmail.com
+                  <a href="mailto:ananyayashbhatnagar@gmail.com" className="text-sm md:text-md text-white hover:text-electric-blue transition-colors font-sans font-light">
+                    ananyayashbhatnagar@gmail.com
                   </a>
                 </div>
               </div>
@@ -93,8 +94,10 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-display font-bold text-[10px] text-zinc-500 uppercase tracking-widest font-mono">Phone / WhatsApp</h4>
-                  <a href="https://wa.me/917742111581" target="_blank" rel="noopener noreferrer" className="text-sm md:text-md text-white hover:text-electric-blue transition-colors font-sans font-light">
-                    +91 7742111581
+                  <a href="https://wa.me/916393722618
+                  " target="_blank" rel="noopener noreferrer" className="text-sm md:text-md text-white hover:text-electric-blue transition-colors font-sans font-light">
+                    +91 6393722618
+                    
                   </a>
                 </div>
               </div>

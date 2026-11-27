@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, MessageSquare } from "lucide-react";
 import { MagneticButton } from "../components/MagneticButton";
-import profileImg from "../assets/profile.jpg";
+import profileImg from "../assets/profile.jpeg";
 
 export const Hero = () => {
   const [imgLoadError, setImgLoadError] = useState(false);

@@ -1,0 +1,49 @@
+# Query: dipeshjangir12
+# ContextLines: 1
+
+11 results - 6 files
+
+.env.example:
+  24  # --------------------------------------------------
+  25: # 2. EMAIL NOTIFICATIONS (REQUIRED TO DELIVER TO ananyayashbhatnagar@gmail.com)
+  26  # Choose ONE of the following options:
+
+  37  SMTP_PORT=587
+  38: SMTP_USER=ananyayashbhatnagar@gmail.com
+  39  SMTP_PASS=your_google_app_password
+
+server/campaignConfig.js:
+  11    offerValidityDays: 7,
+  12:   inquiryEmail: 'ananyayashbhatnagar@gmail.com',
+  13    instagramUrl: 'https://www.instagram.com/_dipesh2.0/',
+
+server/campaignService.js:
+  396    // If credentials are not provided, log and record inquiry securely in database
+  397:   console.warn('[EMAIL] No email credentials configured in environment (RESEND_API_KEY or SMTP_HOST/USER/PASS). Inquiry recorded in database for manual follow-up at ananyayashbhatnagar@gmail.com.');
+  398    return { delivered: false, pendingConfig: true, method: 'database_recorded' };
+
+src/components/campaign/BirthdaySaleModal.jsx:
+   66  
+   67:   // Generate URL-encoded mailto: link addressed to ananyayashbhatnagar@gmail.com
+   68    const generateMailtoLink = (data = formData) => {
+   69:     const recipient = CAMPAIGN_CONFIG?.inquiryEmail || 'ananyayashbhatnagar@gmail.com';
+   70      const isFree = Boolean(offer?.isFree || offer?.finalPrice === 0 || offer?.discount === 300);
+
+  114  
+  115:     const draftText = `To: ${CAMPAIGN_CONFIG?.inquiryEmail || 'ananyayashbhatnagar@gmail.com'}
+  116  Subject: Birthday Sale Website Claim — ${isFree ? '100% OFF (FREE Basic Portfolio)' : `$${discountVal} OFF`} [${offer?.offerId || 'OFFER'}]
+
+  652                      >
+  653:                       ananyayashbhatnagar@gmail.com
+  654                      </a>{' '}
+
+src/data/campaignConfig.js:
+  11    offerValidityDays: 7,
+  12:   inquiryEmail: 'ananyayashbhatnagar@gmail.com',
+  13    instagramUrl: 'https://www.instagram.com/_dipesh2.0/',
+
+src/sections/Contact.jsx:
+  82                    <h4 className="font-display font-bold text-[10px] text-zinc-500 uppercase tracking-widest font-mono">Email</h4>
+  83:                   <a href="mailto:ananyayashbhatnagar@gmail.com" className="text-sm md:text-md text-white hover:text-electric-blue transition-colors font-sans font-light">
+  84:                     ananyayashbhatnagar@gmail.com
+  85                    </a>

@@ -9,7 +9,7 @@ export const CAMPAIGN_CONFIG = {
   endTimestamp: new Date('2026-11-02T00:00:00+05:30').getTime(),
   standardPrice: 300,
   offerValidityDays: 7,
-  inquiryEmail: 'dipeshjangir12@gmail.com',
+  inquiryEmail: 'ananyayashbhatnagar@gmail.com',
   instagramUrl: 'https://www.instagram.com/_dipesh2.0/',
 
   // 9-segment wheel configuration:
